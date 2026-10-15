@@ -1,0 +1,345 @@
+{
+ "name": "HeroBodyHook",
+ "rig": "R15",
+ "priority": "Action",
+ "loop": false,
+ "keyframes": [
+  {
+   "time": 0,
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.15,
+      0.0
+     ],
+     "rotation": [
+      0,
+      -16,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      -4,
+      -6,
+      0
+     ]
+    },
+    "Neck": {
+     "rotation": [
+      -6,
+      10,
+      0
+     ]
+    },
+    "LeftHip": {
+     "aimAt": [
+      -0.55,
+      -2.88,
+      0.5
+     ]
+    },
+    "RightHip": {
+     "aimAt": [
+      0.6,
+      -2.88,
+      -0.45
+     ]
+    },
+    "LeftShoulder": {
+     "aim": [
+      -0.1,
+      -0.45,
+      0.9
+     ]
+    },
+    "LeftElbow": {
+     "bend": 100
+    },
+    "RightShoulder": {
+     "aim": [
+      0.3,
+      -0.8,
+      0.5
+     ]
+    },
+    "RightElbow": {
+     "bend": 130
+    }
+   }
+  },
+  {
+   "time": 0.1,
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.25,
+      0.04
+     ],
+     "rotation": [
+      0,
+      -28,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      -10,
+      -12,
+      0
+     ]
+    },
+    "Neck": {
+     "rotation": [
+      -4,
+      16,
+      0
+     ]
+    },
+    "LeftShoulder": {
+     "aim": [
+      -0.55,
+      -0.5,
+      0.55
+     ]
+    },
+    "LeftElbow": {
+     "bend": 95
+    }
+   }
+  },
+  {
+   "time": 0.18,
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.26,
+      -0.06
+     ],
+     "rotation": [
+      0,
+      -4,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      -14,
+      6,
+      -3
+     ]
+    },
+    "LeftShoulder": {
+     "aim": [
+      -0.45,
+      -0.45,
+      0.8
+     ],
+     "bendToward": [
+      1,
+      0,
+      0
+     ]
+    },
+    "LeftElbow": {
+     "bend": 95
+    }
+   }
+  },
+  {
+   "time": 0.25,
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.26,
+      -0.16
+     ],
+     "rotation": [
+      0,
+      22,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      -16,
+      22,
+      -6
+     ]
+    },
+    "Neck": {
+     "rotation": [
+      -4,
+      -16,
+      0
+     ]
+    },
+    "LeftShoulder": {
+     "aim": [
+      0.25,
+      -0.4,
+      1
+     ],
+     "bendToward": [
+      1,
+      0,
+      0
+     ]
+    },
+    "LeftElbow": {
+     "bend": 95
+    },
+    "RightShoulder": {
+     "aim": [
+      0.22,
+      -0.72,
+      0.6
+     ]
+    },
+    "RightElbow": {
+     "bend": 138
+    }
+   },
+   "name": "Hit",
+   "markers": [
+    {
+     "name": "Hit"
+    }
+   ]
+  },
+  {
+   "time": 0.33,
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.26,
+      -0.15
+     ],
+     "rotation": [
+      0,
+      26,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      -15,
+      24,
+      -6
+     ]
+    }
+   }
+  },
+  {
+   "time": 0.62,
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.2,
+      -0.04
+     ],
+     "rotation": [
+      0,
+      -6,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      -8,
+      -2,
+      0
+     ]
+    },
+    "Neck": {
+     "rotation": [
+      -5,
+      8,
+      0
+     ]
+    },
+    "LeftShoulder": {
+     "aim": [
+      -0.12,
+      -0.5,
+      0.85
+     ]
+    },
+    "LeftElbow": {
+     "bend": 100
+    }
+   }
+  },
+  {
+   "time": 0.85,
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.15,
+      0.0
+     ],
+     "rotation": [
+      0,
+      -16,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      -4,
+      -6,
+      0
+     ]
+    },
+    "Neck": {
+     "rotation": [
+      -6,
+      10,
+      0
+     ]
+    },
+    "LeftHip": {
+     "aimAt": [
+      -0.55,
+      -2.88,
+      0.5
+     ]
+    },
+    "RightHip": {
+     "aimAt": [
+      0.6,
+      -2.88,
+      -0.45
+     ]
+    },
+    "LeftShoulder": {
+     "aim": [
+      -0.1,
+      -0.45,
+      0.9
+     ]
+    },
+    "LeftElbow": {
+     "bend": 100
+    },
+    "RightShoulder": {
+     "aim": [
+      0.3,
+      -0.8,
+      0.5
+     ]
+    },
+    "RightElbow": {
+     "bend": 130
+    }
+   }
+  }
+ ]
+}

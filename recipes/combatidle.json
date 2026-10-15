@@ -1,0 +1,17 @@
+{ "name": "CombatIdle", "rig": "R15", "priority": "Idle", "loop": true, "keyframes": [
+  { "time": 0, "joints": {
+    "Root": { "position": [0.04, -0.2, 0], "rotation": [0, -18, -1.5] }, "Waist": { "rotation": [-3, -4, 1.5] }, "Neck": { "rotation": [-4, 12, 0] },
+    "LeftHip": { "aimAt": [-0.55, -2.88, 0.45] }, "RightHip": { "aimAt": [0.6, -2.88, -0.4] },
+    "LeftShoulder": { "aim": [-0.1, -0.45, 0.9] }, "LeftElbow": { "bend": 100 },
+    "RightShoulder": { "aim": [0.3, -0.8, 0.5] }, "RightElbow": { "bend": 125 } } },
+  { "time": 1.15, "joints": {
+    "Root": { "position": [-0.03, -0.24, 0.02], "rotation": [0, -15, 1.2] }, "Waist": { "rotation": [-4, -7, -1] }, "Neck": { "rotation": [-5, 9, 0] },
+    "LeftShoulder": { "aim": [-0.12, -0.5, 0.86] }, "LeftElbow": { "bend": 104 },
+    "RightShoulder": { "aim": [0.28, -0.82, 0.47] }, "RightElbow": { "bend": 121 } } },
+  { "time": 1.9, "joints": {
+    "Root": { "position": [-0.02, -0.21, 0.01], "rotation": [0, -16, 0.8] }, "Neck": { "rotation": [-3, 14, 0] } } },
+  { "time": 3.2, "joints": {
+    "Root": { "position": [0.04, -0.2, 0], "rotation": [0, -18, -1.5] }, "Waist": { "rotation": [-3, -4, 1.5] }, "Neck": { "rotation": [-4, 12, 0] },
+    "LeftShoulder": { "aim": [-0.1, -0.45, 0.9] }, "LeftElbow": { "bend": 100 },
+    "RightShoulder": { "aim": [0.3, -0.8, 0.5] }, "RightElbow": { "bend": 125 } } }
+] }

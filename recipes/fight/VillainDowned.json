@@ -1,0 +1,184 @@
+{
+ "name": "VillainDowned",
+ "rig": "R15",
+ "priority": "Action3",
+ "loop": true,
+ "keyframes": [
+  {
+   "time": 0,
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -2.62,
+      1.78
+     ],
+     "rotation": [
+      90,
+      0,
+      7
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      0,
+      0,
+      0
+     ]
+    },
+    "LeftHip": {
+     "aim": [
+      -0.22,
+      -0.75,
+      0.55
+     ]
+    },
+    "RightHip": {
+     "aim": [
+      0.3,
+      -1,
+      0.05
+     ]
+    },
+    "LeftKnee": {
+     "bend": 70
+    },
+    "RightKnee": {
+     "bend": 10
+    },
+    "LeftShoulder": {
+     "aim": [
+      -1,
+      0.05,
+      -0.1
+     ]
+    },
+    "LeftElbow": {
+     "bend": 15
+    },
+    "RightShoulder": {
+     "aim": [
+      0.95,
+      0.1,
+      0.1
+     ]
+    },
+    "RightElbow": {
+     "bend": 25
+    },
+    "Neck": {
+     "rotation": [
+      0,
+      10,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "time": 1.6,
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -2.6,
+      1.78
+     ],
+     "rotation": [
+      89,
+      0,
+      7
+     ]
+    },
+    "Neck": {
+     "rotation": [
+      -6,
+      12,
+      0
+     ]
+    },
+    "RightShoulder": {
+     "aim": [
+      0.95,
+      0.18,
+      0.15
+     ]
+    },
+    "RightElbow": {
+     "bend": 30
+    }
+   }
+  },
+  {
+   "time": 3.2,
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -2.62,
+      1.78
+     ],
+     "rotation": [
+      90,
+      0,
+      7
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      0,
+      0,
+      0
+     ]
+    },
+    "LeftHip": {
+     "aim": [
+      -0.22,
+      -0.75,
+      0.55
+     ]
+    },
+    "RightHip": {
+     "aim": [
+      0.3,
+      -1,
+      0.05
+     ]
+    },
+    "LeftKnee": {
+     "bend": 70
+    },
+    "RightKnee": {
+     "bend": 10
+    },
+    "LeftShoulder": {
+     "aim": [
+      -1,
+      0.05,
+      -0.1
+     ]
+    },
+    "LeftElbow": {
+     "bend": 15
+    },
+    "RightShoulder": {
+     "aim": [
+      0.95,
+      0.1,
+      0.1
+     ]
+    },
+    "RightElbow": {
+     "bend": 25
+    },
+    "Neck": {
+     "rotation": [
+      0,
+      10,
+      0
+     ]
+    }
+   }
+  }
+ ]
+}

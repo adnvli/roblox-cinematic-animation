@@ -1,0 +1,7 @@
+{ "name": "NaivePunch", "rig": "R15", "priority": "Action", "keyframes": [
+  { "time": 0, "joints": { "RightShoulder": { "aim": [0.3, -0.2, 0.6] }, "RightElbow": { "bend": 100 }, "LeftShoulder": { "aim": [-0.3, -0.2, 0.6] }, "LeftElbow": { "bend": 100 } } },
+  { "time": 0.25, "joints": { "RightShoulder": { "aim": [0.1, 0.1, 1] }, "RightElbow": { "bend": 0 }, "LeftShoulder": { "aim": [-0.1, 0.1, 1] }, "LeftElbow": { "bend": 0 } } },
+  { "time": 0.5, "joints": { "RightShoulder": { "aim": [0.3, -0.2, 0.6] }, "RightElbow": { "bend": 100 }, "LeftShoulder": { "aim": [-0.3, -0.2, 0.6] }, "LeftElbow": { "bend": 100 } } },
+  { "time": 0.75, "joints": { "RightShoulder": { "aim": [0.3, -0.2, 0.6] }, "RightElbow": { "bend": 100 }, "LeftShoulder": { "aim": [-0.3, -0.2, 0.6] }, "LeftElbow": { "bend": 100 } } },
+  { "time": 1.5, "joints": { "RightShoulder": { "aim": [0.3, -0.2, 0.6] }, "RightElbow": { "bend": 100 }, "LeftShoulder": { "aim": [-0.3, -0.2, 0.6] }, "LeftElbow": { "bend": 100 } } }
+]}

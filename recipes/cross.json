@@ -1,0 +1,336 @@
+{
+ "name": "Cross",
+ "rig": "R15",
+ "priority": "Action",
+ "keyframes": [
+  {
+   "time": 0,
+   "name": "Guard",
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.15,
+      0
+     ],
+     "rotation": [
+      0,
+      -16,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      -4,
+      -6,
+      0
+     ]
+    },
+    "Neck": {
+     "rotation": [
+      -6,
+      10,
+      0
+     ]
+    },
+    "LeftHip": {
+     "aimAt": [
+      -0.55,
+      -2.88,
+      0.5
+     ]
+    },
+    "RightHip": {
+     "aimAt": [
+      0.6,
+      -2.88,
+      -0.45
+     ]
+    },
+    "LeftShoulder": {
+     "aim": [
+      -0.1,
+      -0.45,
+      0.9
+     ]
+    },
+    "LeftElbow": {
+     "bend": 100
+    },
+    "RightShoulder": {
+     "aim": [
+      0.3,
+      -0.8,
+      0.5
+     ]
+    },
+    "RightElbow": {
+     "bend": 130
+    }
+   }
+  },
+  {
+   "time": 0.1,
+   "name": "Load",
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.26,
+      0.06
+     ],
+     "rotation": [
+      0,
+      -24,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      -6,
+      -10,
+      0
+     ]
+    },
+    "Neck": {
+     "rotation": [
+      -8,
+      14,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "time": 0.17,
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.26,
+      -0.112
+     ],
+     "rotation": [
+      0,
+      4,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      -6,
+      4,
+      0
+     ]
+    },
+    "RightShoulder": {
+     "aim": [
+      0.2,
+      -0.3,
+      0.9
+     ]
+    },
+    "RightElbow": {
+     "bend": 80
+    },
+    "LeftShoulder": {
+     "aim": [
+      -0.25,
+      -0.7,
+      0.55
+     ]
+    },
+    "LeftElbow": {
+     "bend": 120
+    }
+   }
+  },
+  {
+   "time": 0.24,
+   "name": "Hit",
+   "markers": [
+    {
+     "name": "Hit"
+    }
+   ],
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.26,
+      -0.198
+     ],
+     "rotation": [
+      0,
+      12,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      -8,
+      14,
+      0
+     ]
+    },
+    "Neck": {
+     "rotation": [
+      -8,
+      -12,
+      0
+     ]
+    },
+    "RightShoulder": {
+     "aim": [
+      0.06,
+      0.05,
+      1
+     ]
+    },
+    "RightElbow": {
+     "bend": 4
+    },
+    "LeftShoulder": {
+     "aim": [
+      -0.3,
+      -0.75,
+      0.45
+     ]
+    },
+    "LeftElbow": {
+     "bend": 128
+    }
+   }
+  },
+  {
+   "time": 0.3,
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.26,
+      -0.186
+     ],
+     "rotation": [
+      0,
+      11,
+      0
+     ]
+    },
+    "RightShoulder": {
+     "aim": [
+      0.08,
+      0.02,
+      1
+     ]
+    },
+    "RightElbow": {
+     "bend": 8
+    }
+   }
+  },
+  {
+   "time": 0.62,
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.2,
+      -0.05
+     ],
+     "rotation": [
+      0,
+      -12,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      -4,
+      -4,
+      0
+     ]
+    },
+    "Neck": {
+     "rotation": [
+      -6,
+      8,
+      0
+     ]
+    },
+    "RightShoulder": {
+     "aim": [
+      0.3,
+      -0.7,
+      0.6
+     ]
+    },
+    "RightElbow": {
+     "bend": 115
+    },
+    "LeftShoulder": {
+     "aim": [
+      -0.12,
+      -0.5,
+      0.85
+     ]
+    },
+    "LeftElbow": {
+     "bend": 102
+    }
+   }
+  },
+  {
+   "time": 0.9,
+   "name": "Guard",
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.15,
+      0
+     ],
+     "rotation": [
+      0,
+      -16,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      -4,
+      -6,
+      0
+     ]
+    },
+    "Neck": {
+     "rotation": [
+      -6,
+      10,
+      0
+     ]
+    },
+    "RightShoulder": {
+     "aim": [
+      0.3,
+      -0.8,
+      0.5
+     ]
+    },
+    "RightElbow": {
+     "bend": 130
+    },
+    "LeftShoulder": {
+     "aim": [
+      -0.1,
+      -0.45,
+      0.9
+     ]
+    },
+    "LeftElbow": {
+     "bend": 100
+    }
+   }
+  }
+ ]
+}

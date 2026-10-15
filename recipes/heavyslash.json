@@ -1,0 +1,402 @@
+{
+ "name": "HeavySlash",
+ "rig": "R15",
+ "priority": "Action",
+ "keyframes": [
+  {
+   "time": 0,
+   "name": "Guard",
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.15,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      0,
+      0,
+      0
+     ]
+    },
+    "Neck": {
+     "rotation": [
+      -4,
+      0,
+      0
+     ]
+    },
+    "LeftHip": {
+     "aimAt": [
+      -0.6,
+      -2.88,
+      0.45
+     ]
+    },
+    "RightHip": {
+     "aimAt": [
+      0.6,
+      -2.88,
+      -0.4
+     ]
+    },
+    "RightShoulder": {
+     "aim": [
+      0.2,
+      -0.8,
+      0.6
+     ]
+    },
+    "RightElbow": {
+     "bend": 50
+    },
+    "Weapon": {
+     "rotation": [
+      0,
+      0,
+      0
+     ]
+    },
+    "LeftShoulder": {
+     "aim": [
+      -0.45,
+      -0.85,
+      0.25
+     ]
+    },
+    "LeftElbow": {
+     "bend": 30
+    }
+   }
+  },
+  {
+   "time": 0.38,
+   "name": "WindUp",
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.06,
+      0.1
+     ],
+     "rotation": [
+      0,
+      20,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      10,
+      25,
+      0
+     ]
+    },
+    "Neck": {
+     "rotation": [
+      -6,
+      -12,
+      0
+     ]
+    },
+    "RightShoulder": {
+     "aim": [
+      0.4,
+      1,
+      0.2
+     ],
+     "bendToward": [
+      0,
+      0,
+      -1
+     ]
+    },
+    "RightElbow": {
+     "bend": 70
+    },
+    "Weapon": {
+     "rotation": [
+      0,
+      0,
+      0
+     ]
+    },
+    "LeftShoulder": {
+     "aim": [
+      -0.2,
+      -0.15,
+      0.95
+     ]
+    },
+    "LeftElbow": {
+     "bend": 20
+    }
+   }
+  },
+  {
+   "time": 0.46,
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.08,
+      0.11
+     ],
+     "rotation": [
+      0,
+      22,
+      0
+     ]
+    },
+    "RightElbow": {
+     "bend": 76
+    },
+    "Waist": {
+     "rotation": [
+      5,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "time": 0.56,
+   "name": "Hit",
+   "markers": [
+    {
+     "name": "Hit"
+    }
+   ],
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.25,
+      -0.2
+     ],
+     "rotation": [
+      0,
+      -15,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      -18,
+      -20,
+      0
+     ]
+    },
+    "Neck": {
+     "rotation": [
+      -10,
+      8,
+      0
+     ]
+    },
+    "RightShoulder": {
+     "aim": [
+      0.15,
+      0,
+      1
+     ],
+     "bendToward": [
+      0,
+      1,
+      0
+     ]
+    },
+    "RightElbow": {
+     "bend": 10
+    },
+    "Weapon": {
+     "rotation": [
+      -95,
+      0,
+      0
+     ]
+    },
+    "LeftShoulder": {
+     "aim": [
+      -0.5,
+      -0.6,
+      -0.4
+     ]
+    },
+    "LeftElbow": {
+     "bend": 40
+    }
+   }
+  },
+  {
+   "time": 0.66,
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.26,
+      -0.24
+     ],
+     "rotation": [
+      0,
+      -25,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      -23,
+      -32,
+      0
+     ]
+    },
+    "RightShoulder": {
+     "aim": [
+      -0.4,
+      -0.6,
+      0.7
+     ],
+     "bendToward": [
+      0,
+      1,
+      0.3
+     ]
+    },
+    "RightElbow": {
+     "bend": 15
+    },
+    "Weapon": {
+     "rotation": [
+      -70,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "time": 1.02,
+   "name": "FollowThroughHold",
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.24,
+      -0.22
+     ],
+     "rotation": [
+      0,
+      -23,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      -20,
+      -29,
+      0
+     ]
+    },
+    "RightShoulder": {
+     "aim": [
+      -0.38,
+      -0.63,
+      0.7
+     ],
+     "bendToward": [
+      0,
+      1,
+      0.3
+     ]
+    },
+    "RightElbow": {
+     "bend": 18
+    },
+    "Weapon": {
+     "rotation": [
+      -66,
+      0,
+      0
+     ]
+    },
+    "LeftShoulder": {
+     "aim": [
+      -0.48,
+      -0.65,
+      -0.35
+     ]
+    },
+    "LeftElbow": {
+     "bend": 38
+    }
+   }
+  },
+  {
+   "time": 1.55,
+   "name": "Guard",
+   "joints": {
+    "Root": {
+     "position": [
+      0,
+      -0.15,
+      0
+     ],
+     "rotation": [
+      0,
+      0,
+      0
+     ]
+    },
+    "Waist": {
+     "rotation": [
+      0,
+      0,
+      0
+     ]
+    },
+    "Neck": {
+     "rotation": [
+      -4,
+      0,
+      0
+     ]
+    },
+    "RightShoulder": {
+     "aim": [
+      0.2,
+      -0.8,
+      0.6
+     ]
+    },
+    "RightElbow": {
+     "bend": 50
+    },
+    "Weapon": {
+     "rotation": [
+      0,
+      0,
+      0
+     ]
+    },
+    "LeftShoulder": {
+     "aim": [
+      -0.45,
+      -0.85,
+      0.25
+     ]
+    },
+    "LeftElbow": {
+     "bend": 30
+    }
+   }
+  }
+ ]
+}
